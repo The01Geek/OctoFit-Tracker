@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-@%q7bjh*nex&&w=w2b3t=@6v&c$lrwsneg!d86jxbbq0z&r6hi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Add the codespace Django REST API endpoint suffix to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['miniature-capybara-qxgg7j64wrc4jp4-8000.app.github.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
